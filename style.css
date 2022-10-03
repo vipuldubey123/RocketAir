@@ -185,12 +185,13 @@ html,body{
 #video{
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
 video{
     position: absolute;
+    width: 100vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -522,7 +523,7 @@ video{
 .card .photu{
     width: 25vw;
     height: 38vw;
-    background-color: blueviolet;
+    background-color: red;
 }
 
 #footer{
